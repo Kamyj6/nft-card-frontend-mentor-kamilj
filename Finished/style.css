@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: grid;
+  place-content: center;
+}
+
+main {
+  background-color: hsl(216, 50%, 16%);
+  display: grid;
+  place-content: center;
+  margin: 15px;
+  border-radius: 20px;
+  max-width: 22rem;
+  font-family: "Outfit", sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+h2,
+span,
+p {
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 0.9rem;
+  color: hsl(215, 51%, 70%);
+}
+
+h2 span {
+  color: white;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.price-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-info span {
+  font-size: 1rem;
+}
+
+.price,
+.time {
+  font-weight: 400;
+}
+
+.price {
+  width: 10rem;
+  color: hsl(178, 100%, 50%);
+}
+
+.time {
+  color: hsl(215, 51%, 70%);
+}
+
+.price-icon {
+  max-width: 0.5rem;
+  margin: 0 5px;
+}
+
+.time-icon {
+  max-width: 0.8rem;
+  margin: 0 5px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  margin: 15px 0;
+  background-color: hsl(215, 32%, 27%);
+}
+
+.nft-img {
+  max-width: 19rem;
+  margin: 24px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.nft-img2 {
+  max-width: 19rem;
+  margin: 24px;
+  width: 100%;
+  border-radius: 10px;
+  position: absolute;
+  top: 11%;
+  left: 37%;
+  display: none;
+  opacity: 0.7;
+}
+
+.main-img:hover .nft-img2 {
+  display: block;
+  background-color: hsl(178, 100%, 50%);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+section {
+  margin: 0 20px;
+}
+
+.author-img {
+  max-width: 2rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.credits span:hover {
+  color: hsl(178, 100%, 50%);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.attribution {
+  color: white;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
